@@ -1,0 +1,24 @@
+case_001:
+     testid: "001"
+     phoneNO: "3463"
+     smscode: "666888"
+
+case_002:
+     testid: "002"
+     phoneNO: "770013073"
+     smscode: "666888"
+
+case_003:
+     testid: "003"
+     phoneNO: "770013073"
+     smscode: "666885"
+
+case_004:
+    testid: "004"
+    phoneNO: "770013073"
+    smscode: ""
+
+case_005:
+    testid: "005"
+    phoneNO: ""
+    smscode: "666888"
