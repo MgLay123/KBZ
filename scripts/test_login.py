@@ -50,9 +50,9 @@ class TestLogin:
 
     def test_login_by_term(self):
 
-        self.page.login_page.input_phoneNO(login_phoneNo)
+        self.page.login_page.input_phoneNO(phoneNo)
         assert self.page.login_page.find_code_status(login_status) == login_toast_true
-        self.page.login_page.input_smscode(login_smscode)
+        self.page.login_page.input_smscode(smscode)
         assert self.page.login_page.find_start_status(login_status) == login_toast_true
         self.page.login_page.click_term()
         assert self.page.login_page.find_start_status(login_status) == login_toast_false

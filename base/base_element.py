@@ -212,3 +212,9 @@ class BaseElements:
     payment = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/btn_transfer"
     edit_notes = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/edit_note"
 
+    #Display
+    ref = "Reference Number"
+    assert_pay  = "Payment Successful"
+    assert_ATM = "Success"
+
+

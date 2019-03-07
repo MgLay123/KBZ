@@ -4,7 +4,7 @@ from base.base_action import BaseAction
 from base.base_element import BaseElements
 
 
-class QuickPayPage(BaseAction, BaseElements):
+class QuickPayPage( BaseAction,BaseElements):
 
     def click_Aeon(self):
         self.click(self.Select_Aeon)

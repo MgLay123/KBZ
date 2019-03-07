@@ -235,7 +235,7 @@ function filter_table(elem) {
 }
 </script>
     <h1>test_report.html</h1>
-    <p>Report generated on 02-Mar-2019 at 10:45:57 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.19.0</p>
+    <p>Report generated on 07-Mar-2019 at 08:22:08 by<a href="https://pypi.python.org/pypi/pytest-html"> pytest-html</a> v1.19.0</p>
     <h2>Environment</h2>
     <table id="environment">
       <tr>
@@ -251,8 +251,8 @@ function filter_table(elem) {
         <td>Python</td>
         <td>3.6.5</td></tr></table>
     <h2>Summary</h2>
-    <p>1 tests ran in 62.57 seconds. </p>
-    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">1 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">0 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
+    <p>1 tests ran in 42.04 seconds. </p>
+    <p class="filter" hidden="true">(Un)check the boxes to filter the results.</p><input checked="true" class="filter" data-test-result="passed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="passed">0 passed</span>, <input checked="true" class="filter" data-test-result="skipped" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="skipped">0 skipped</span>, <input checked="true" class="filter" data-test-result="failed" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="failed">1 failed</span>, <input checked="true" class="filter" data-test-result="error" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="error">0 errors</span>, <input checked="true" class="filter" data-test-result="xfailed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xfailed">0 expected failures</span>, <input checked="true" class="filter" data-test-result="xpassed" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="xpassed">0 unexpected passes</span>, <input checked="true" class="filter" data-test-result="rerun" disabled="true" hidden="true" name="filter_checkbox" onChange="filter_table(this)" type="checkbox"/><span class="rerun">0 rerun</span>
     <h2>Results</h2>
     <table id="results-table">
       <thead id="results-table-head">
@@ -263,12 +263,12 @@ function filter_table(elem) {
           <th>Links</th></tr>
         <tr hidden="true" id="not-found-message">
           <th colspan="4">No results found. Try to check the filters</th></tr></thead>
-      <tbody class="passed results-table-row">
+      <tbody class="failed results-table-row">
         <tr>
-          <td class="col-result">Passed</td>
-          <td class="col-name">scripts/test_quick_pay.py::TestQuickPay::()::test_aeon</td>
-          <td class="col-duration">44.52</td>
+          <td class="col-result">Failed</td>
+          <td class="col-name">scripts/test_balance.py::TestBalance::()::test_withdraw_ATM</td>
+          <td class="col-duration">25.08</td>
           <td class="col-links"></td></tr>
         <tr>
           <td class="extra" colspan="4">
-            <div class="empty log">No log output captured.</div></td></tr></tbody></table></body></html>
+            <div class="log">self = &lt;scripts.test_balance.TestBalance object at 0x000001CC316BCCF8&gt;<br/><br/>    def test_withdraw_ATM(self):<br/>        self.page.banner_page.click_balance()<br/>        self.page.balance_page.click_withdraw()<br/>        self.page.withdraw_page.click_cashout_from_ATM()<br/>        self.page.cash_out_ATM_page.click_request_code()<br/>        self.page.pin_enter_page.input_pin()<br/>&gt;       self.Assert_display(self.driver, self.assert_ATM)<br/><br/>test_balance.py:59: <br/>_ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _ _<br/><br/>self = &lt;scripts.test_balance.TestBalance object at 0x000001CC316BCCF8&gt;<br/>driver = &lt;appium.webdriver.webdriver.WebDriver (session=&quot;e29c2c39-87b7-4c47-96df-b32e60f99d7f&quot;)&gt;<br/>text = &#x27;Success&#x27;<br/><br/>    def Assert_display(self, driver, text):<br/>        for i in range(6):<br/>    <br/>            if text in driver.page_source:<br/>                assert True<br/>                print(&#x27; Assert Success!&#x27;)<br/>                break<br/>            else:<br/>                time.sleep(2)<br/>                print(&#x27;Asserting,Please wait...&#x27;)<br/>                if i == 5:<br/>                    print(&#x27;Aseert Failed!&#x27;)<br/>&gt;                   assert False<br/><span class="error">E                   AssertionError</span><br/><br/>..\base\base_assert.py:31: AssertionError<br/></div></td></tr></tbody></table></body></html>

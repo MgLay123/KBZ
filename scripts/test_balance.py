@@ -1,6 +1,7 @@
 import time
 import pytest
 from base.analysis_data import AnalysisData
+from base.base_assert import BaseAssert
 from base.base_driver import init_driver
 from base.base_element import BaseElements
 from base.base_login import login
@@ -8,7 +9,7 @@ from page.page import Page
 from base.base_data import *
 
 
-class TestNotify(BaseElements):
+class TestBalance(BaseElements,BaseAssert):
 
     def setup(self):
         self.page, self.driver = login()
@@ -26,6 +27,7 @@ class TestNotify(BaseElements):
         self.page.bank_account_page.input_amount(amount)
         self.page.bank_account_page.click_confirm()
         self.page.pin_enter_page.input_pin()
+        self.Assert_display(self.driver,self.assert_pay)
 
     @pytest.mark.parametrize("test_id,short_code", AnalysisData("balance_data").analysis_data())
     def test_withdraw_agent(self,test_id, short_code):
@@ -40,12 +42,13 @@ class TestNotify(BaseElements):
             self.page.cash_out_page.click_MMK()
             self.page.cash_out_page.click_submit()
             self.page.pin_enter_page.input_pin()
+            self.Assert_display(self.driver, self.assert_pay)
         else:
 
             self.page.cash_out_page.input_amout(amount)
             self.page.cash_out_page.click_submit()
             self.page.pin_enter_page.input_pin()
-            time.sleep(2)
+            self.Assert_display(self.driver, self.assert_pay)
 
     def test_withdraw_ATM(self):
         self.page.banner_page.click_balance()
@@ -53,6 +56,7 @@ class TestNotify(BaseElements):
         self.page.withdraw_page.click_cashout_from_ATM()
         self.page.cash_out_ATM_page.click_request_code()
         self.page.pin_enter_page.input_pin()
+        self.Assert_display(self.driver, self.assert_ATM)
 
     def test_withdraw_bank_AC(self):
         self.page.banner_page.click_balance()
@@ -61,6 +65,7 @@ class TestNotify(BaseElements):
         self.page.bank_account_page.input_amount(amount)
         self.page.bank_account_page.click_confirm()
         self.page.pin_enter_page.input_pin()
+        self.Assert_display(self.driver, self.assert_pay)
 
     def teardown(self):
 

@@ -3,14 +3,17 @@ import pytest
 from appium.webdriver.common.touch_action import TouchAction
 
 from base.analysis_data import AnalysisData
+from base.base_assert import BaseAssert
 from base.base_driver import init_driver
 from base.base_element import BaseElements
 from base.base_login import login
+
+
 from page.page import Page
 from base.base_data import *
 
 
-class TestQuickPay(BaseElements):
+class TestQuickPay(BaseElements,BaseAssert):
 
     def setup(self):
         self.page, self.driver = login()
@@ -31,7 +34,7 @@ class TestQuickPay(BaseElements):
         quick_pay_page = self.page.quick_pay_page
         quick_pay_page.click_quick_pay()
         quick_pay_page.click_Aeon()
-        time.sleep(1)
+        self.if_display(self.driver,self.ref)
         quick_pay_page.input_aeon_ref_num(ref_num)
         quick_pay_page.input_aeon_depoistor_name(depoistor_name)
         quick_pay_page.input_aeon_test(test)
