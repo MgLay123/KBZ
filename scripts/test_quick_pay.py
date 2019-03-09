@@ -1,4 +1,6 @@
 import time
+
+import allure
 import pytest
 from appium.webdriver.common.touch_action import TouchAction
 
@@ -29,7 +31,7 @@ class TestQuickPay(BaseElements,BaseAssert):
     #     self.page.quick_pay_page.input_amount(amount)
     #     self.page.quick_pay_page.click_submit()
     #     self.page.pin_enter_page.input_pin()
-
+    @allure.MASTER_HELPER.feature("Quick Pay")
     def test_aeon(self):
         quick_pay_page = self.page.quick_pay_page
         quick_pay_page.click_quick_pay()

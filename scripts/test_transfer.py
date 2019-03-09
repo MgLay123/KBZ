@@ -1,4 +1,6 @@
 import time
+
+import allure
 import pytest
 from base.analysis_data import AnalysisData
 from base.base_driver import init_driver
@@ -14,6 +16,7 @@ class TestTransfer(BaseElements):
         self.page, self.driver = login()
 
     @pytest.mark.parametrize("test_id,phone_no", AnalysisData("transfer_data").analysis_data())
+    @allure.MASTER_HELPER.feature("Transfer")
     def test_transfer(self,test_id, phone_no):
         self.page.banner_page.click_Tansfer()
         self.page.transfer_page.input_phone_no(phone_no)

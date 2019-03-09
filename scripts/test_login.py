@@ -1,4 +1,7 @@
 import time
+
+import allure
+
 from base.base_data import *
 import pytest
 
@@ -11,7 +14,7 @@ class TestLogin:
     def setup(self):
         self.driver = init_driver()
         self.page = Page(self.driver)
-
+    @allure.MASTER_HELPER.feature("Login UI set language")
     def test_change_lang(self):
         self.page.login_page.click_lang_button()
         self.page.login_page.click_en_button()
@@ -26,6 +29,7 @@ class TestLogin:
         assert self.page.login_page.find_start() == login_lang_ch
 
     @pytest.mark.parametrize("test_id,phoneNo,smscode", AnalysisData("login_data").analysis_data())
+    @allure.MASTER_HELPER.feature("Login")
     def test_login(self, test_id, phoneNo, smscode):
 
         self.page.login_page.input_phoneNO(phoneNo)
@@ -39,7 +43,7 @@ class TestLogin:
             assert self.page.login_page.find_title()
 
         elif test_id == case_3:
-            assert self.page.login_page.find_toast(login_toast_invalid)
+            assert self.page.login_page.find_toast(login_toast_wrong)
 
         elif test_id == case_4:
             time.sleep(2)
@@ -48,6 +52,7 @@ class TestLogin:
         else:
             assert self.page.login_page.find_toast(login_toast_mobile)
 
+    @allure.MASTER_HELPER.feature("Login By Term")
     def test_login_by_term(self):
 
         self.page.login_page.input_phoneNO(phoneNo)

@@ -7,7 +7,7 @@ from appium.webdriver.common.touch_action import TouchAction
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.wait import WebDriverWait
 
-
+import allure
 from base.base_action import BaseAction
 from base.base_element import BaseElements
 

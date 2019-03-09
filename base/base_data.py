@@ -14,7 +14,7 @@ login_lang_my="စမည်"
 login_lang_ch="开始"
 
 login_toast_no= "no"
-login_toast_invalid= "invalid"
+login_toast_wrong= "Wrong"
 login_toast_mobile= "mobile"
 login_status="enabled"
 login_toast_false= "false"

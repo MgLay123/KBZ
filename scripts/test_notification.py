@@ -1,4 +1,7 @@
 import time
+
+import allure
+
 from base.base_element import BaseElements
 from base.base_login import login
 
@@ -8,6 +11,7 @@ class TestNotify(BaseElements):
     def setup(self):
         self.page, self.driver = login()
 
+    @allure.MASTER_HELPER.feature("System Notification")
     def test_sys_notify(self):
         self.page.banner_page.click_notification()
         self.page.notification_page.click_sys_info()

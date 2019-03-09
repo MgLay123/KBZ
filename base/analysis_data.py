@@ -5,7 +5,7 @@ class AnalysisData:
 
     def __init__(self, filename):
 
-        self.filepath = "../data/" + filename + ".yaml"
+        self.filepath = "./data/" + filename + ".yaml"
 
     def analysis_data(self):
 

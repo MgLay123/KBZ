@@ -1,4 +1,6 @@
 import time
+
+import allure
 import pytest
 from base.analysis_data import AnalysisData
 from base.base_assert import BaseAssert
@@ -14,12 +16,14 @@ class TestBalance(BaseElements,BaseAssert):
     def setup(self):
         self.page, self.driver = login()
 
+    @allure.MASTER_HELPER.feature("通过Banlance界面CashIn")
     def test_diposit_agent(self):
         self.page.banner_page.click_balance()
         self.page.balance_page.click_deposit()
         self.page.deposit_page.click_cashin_from_agent()
         self.page.cash_in_page.click_start()
 
+    @allure.MASTER_HELPER.feature("通过Banlance界面从银行卡向钱包转账")
     def test_diposit_bank_AC(self):
         self.page.banner_page.click_balance()
         self.page.balance_page.click_deposit()
@@ -30,6 +34,7 @@ class TestBalance(BaseElements,BaseAssert):
         self.Assert_display(self.driver,self.assert_pay)
 
     @pytest.mark.parametrize("test_id,short_code", AnalysisData("balance_data").analysis_data())
+    @allure.MASTER_HELPER.feature("通过Banlance界面向Agent做CashOut")
     def test_withdraw_agent(self,test_id, short_code):
         self.page.banner_page.click_balance()
         self.page.balance_page.click_withdraw()
@@ -50,6 +55,7 @@ class TestBalance(BaseElements,BaseAssert):
             self.page.pin_enter_page.input_pin()
             self.Assert_display(self.driver, self.assert_pay)
 
+    @allure.MASTER_HELPER.feature("通过Banlance界面从ATM取钱")
     def test_withdraw_ATM(self):
         self.page.banner_page.click_balance()
         self.page.balance_page.click_withdraw()
@@ -58,6 +64,7 @@ class TestBalance(BaseElements,BaseAssert):
         self.page.pin_enter_page.input_pin()
         self.Assert_display(self.driver, self.assert_ATM)
 
+    @allure.MASTER_HELPER.feature("通过Banlance界面从钱包向银行卡转账")
     def test_withdraw_bank_AC(self):
         self.page.banner_page.click_balance()
         self.page.balance_page.click_withdraw()
