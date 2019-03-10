@@ -1,24 +1,53 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d42820c8-b9af-4afb-b37f-fe2ab6c03dd6" name="Default" comment="Add assert">
+    <list default="true" id="d42820c8-b9af-4afb-b37f-fe2ab6c03dd6" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/base/base_logs.py" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/data/name_data.yaml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/lastfailed" />
-      <change beforePath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" afterPath="$PROJECT_DIR$/.pytest_cache/v/cache/nodeids" />
       <change beforePath="$PROJECT_DIR$/base/analysis_data.py" afterPath="$PROJECT_DIR$/base/analysis_data.py" />
-      <change beforePath="$PROJECT_DIR$/base/base_data.py" afterPath="$PROJECT_DIR$/base/base_data.py" />
+      <change beforePath="$PROJECT_DIR$/base/base_action.py" afterPath="$PROJECT_DIR$/base/base_action.py" />
+      <change beforePath="$PROJECT_DIR$/base/base_assert.py" afterPath="$PROJECT_DIR$/base/base_assert.py" />
+      <change beforePath="$PROJECT_DIR$/base/base_element.py" afterPath="$PROJECT_DIR$/base/base_element.py" />
+      <change beforePath="$PROJECT_DIR$/base/base_login.py" afterPath="$PROJECT_DIR$/base/base_login.py" />
       <change beforePath="$PROJECT_DIR$/demo.py" afterPath="$PROJECT_DIR$/demo.py" />
+      <change beforePath="$PROJECT_DIR$/page/__init__.py" afterPath="$PROJECT_DIR$/page/__init__.py" />
+      <change beforePath="$PROJECT_DIR$/page/balance_page.py" afterPath="$PROJECT_DIR$/page/balance_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/bank_account_page.py" afterPath="$PROJECT_DIR$/page/bank_account_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/banner_page.py" afterPath="$PROJECT_DIR$/page/banner_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/cash_in_page.py" afterPath="$PROJECT_DIR$/page/cash_in_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/cash_out_ATM_page.py" afterPath="$PROJECT_DIR$/page/cash_out_ATM_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/cash_out_page.py" afterPath="$PROJECT_DIR$/page/cash_out_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/change_pin_page.py" afterPath="$PROJECT_DIR$/page/change_pin_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/deposit_page.py" afterPath="$PROJECT_DIR$/page/deposit_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/forget_pin_page.py" afterPath="$PROJECT_DIR$/page/forget_pin_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/help_feeback_page.py" afterPath="$PROJECT_DIR$/page/help_feeback_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/history_page.py" afterPath="$PROJECT_DIR$/page/history_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/language_page.py" afterPath="$PROJECT_DIR$/page/language_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/login_page.py" afterPath="$PROJECT_DIR$/page/login_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/manual_page.py" afterPath="$PROJECT_DIR$/page/manual_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/nearby_page.py" afterPath="$PROJECT_DIR$/page/nearby_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/new_notices_page.py" afterPath="$PROJECT_DIR$/page/new_notices_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/notification_page.py" afterPath="$PROJECT_DIR$/page/notification_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/page.py" afterPath="$PROJECT_DIR$/page/page.py" />
+      <change beforePath="$PROJECT_DIR$/page/payment_page.py" afterPath="$PROJECT_DIR$/page/payment_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/pin_enter_page.py" afterPath="$PROJECT_DIR$/page/pin_enter_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/pin_manage_page.py" afterPath="$PROJECT_DIR$/page/pin_manage_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/qr_recevie_page.py" afterPath="$PROJECT_DIR$/page/qr_recevie_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/quick_pay_page.py" afterPath="$PROJECT_DIR$/page/quick_pay_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/reset_pin_page.py" afterPath="$PROJECT_DIR$/page/reset_pin_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/scan_qr_page.py" afterPath="$PROJECT_DIR$/page/scan_qr_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/set_photo_page.py" afterPath="$PROJECT_DIR$/page/set_photo_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/setting_page.py" afterPath="$PROJECT_DIR$/page/setting_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/sidebar_page.py" afterPath="$PROJECT_DIR$/page/sidebar_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/top_up_page.py" afterPath="$PROJECT_DIR$/page/top_up_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/transfer_page.py" afterPath="$PROJECT_DIR$/page/transfer_page.py" />
+      <change beforePath="$PROJECT_DIR$/page/withdraw_page.py" afterPath="$PROJECT_DIR$/page/withdraw_page.py" />
       <change beforePath="$PROJECT_DIR$/pytest.ini" afterPath="$PROJECT_DIR$/pytest.ini" />
-      <change beforePath="$PROJECT_DIR$/report/assets/style.css" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/report/test_report.html" afterPath="" />
       <change beforePath="$PROJECT_DIR$/scripts/test_balance.py" afterPath="$PROJECT_DIR$/scripts/test_balance.py" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_card_bind_unbind.py" afterPath="$PROJECT_DIR$/scripts/test_card_bind_unbind.py" />
       <change beforePath="$PROJECT_DIR$/scripts/test_login.py" afterPath="$PROJECT_DIR$/scripts/test_login.py" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_notification.py" afterPath="$PROJECT_DIR$/scripts/test_notification.py" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_quick_pay.py" afterPath="$PROJECT_DIR$/scripts/test_quick_pay.py" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_scan_and_pay.py" afterPath="$PROJECT_DIR$/scripts/test_scan_and_pay.py" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_sidebar.py" afterPath="$PROJECT_DIR$/scripts/test_sidebar.py" />
-      <change beforePath="$PROJECT_DIR$/scripts/test_transfer.py" afterPath="$PROJECT_DIR$/scripts/test_transfer.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -33,9 +62,9 @@
     <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_balance_TestNotify_test_withdraw_agent.coverage" NAME="py.test for test_balance.TestNotify.test_withdraw_agent Coverage Results" MODIFIED="1550879283945" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_sidebar_TestSidebar.coverage" NAME="py.test for test_sidebar.TestSidebar Coverage Results" MODIFIED="1546993178933" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_sidebar_TestSidebar_test_set_photo.coverage" NAME="py.test for test_sidebar.TestSidebar.test_set_photo Coverage Results" MODIFIED="1546993423946" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_login_TestLogin.coverage" NAME="py.test for test_login.TestLogin Coverage Results" MODIFIED="1550620342542" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
-    <SUITE FILE_PATH="coverage/KBZ$demo.coverage" NAME="demo Coverage Results" MODIFIED="1551745850163" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_login_TestLogin_test_change_lang.coverage" NAME="py.test for test_login.TestLogin.test_change_lang Coverage Results" MODIFIED="1550534695194" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_login_TestLogin.coverage" NAME="py.test for test_login.TestLogin Coverage Results" MODIFIED="1552219107035" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/KBZ$demo.coverage" NAME="demo Coverage Results" MODIFIED="1552228560053" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_login_TestLogin_test_change_lang.coverage" NAME="py.test for test_login.TestLogin.test_change_lang Coverage Results" MODIFIED="1552217786501" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/KBZ$quick_pay_page.coverage" NAME="quick_pay_page Coverage Results" MODIFIED="1551053452659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
     <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_balance_TestNotify_test_diposit_bank_AC.coverage" NAME="py.test for test_balance.TestNotify.test_diposit_bank_AC Coverage Results" MODIFIED="1551917297130" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/KBZ$py_test_for_demo_Test_test_a.coverage" NAME="py.test for demo.Test.test_a Coverage Results" MODIFIED="1550622008807" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/page" />
@@ -48,10 +77,12 @@
     <SUITE FILE_PATH="coverage/KBZ$py_test_in_test_notification_py.coverage" NAME="py.test in test_notification.py Coverage Results" MODIFIED="1550792269051" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_balance_TestNotify.coverage" NAME="py.test for test_balance.TestNotify Coverage Results" MODIFIED="1551917560500" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_transfer_TestTransfer.coverage" NAME="py.test for test_transfer.TestTransfer Coverage Results" MODIFIED="1551051445880" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_balance_TestBalance_test_withdraw_bank_AC.coverage" NAME="py.test for test_balance.TestBalance.test_withdraw_bank_AC Coverage Results" MODIFIED="1552225644851" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_balance_TestNotify_test_diposit_agent.coverage" NAME="py.test for test_balance.TestNotify.test_diposit_agent Coverage Results" MODIFIED="1550792491497" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_quick_pay_TestQuickPay_test_aeon.coverage" NAME="py.test for test_quick_pay.TestQuickPay.test_aeon Coverage Results" MODIFIED="1551916928543" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_notification_TestNotify.coverage" NAME="py.test for test_notification.TestNotify Coverage Results" MODIFIED="1547684184036" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_login_page_TestLogin.coverage" NAME="py.test for test_login_page.TestLogin Coverage Results" MODIFIED="1545351407382" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
+    <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_balance_TestBalance.coverage" NAME="py.test for test_balance.TestBalance Coverage Results" MODIFIED="1552225038229" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_notification_TestNotify_test_sys_notify.coverage" NAME="py.test for test_notification.TestNotify.test_sys_notify Coverage Results" MODIFIED="1547684410895" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/KBZ$py_test_in_test_login_py.coverage" NAME="py.test in test_login.py Coverage Results" MODIFIED="1550621109218" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
     <SUITE FILE_PATH="coverage/KBZ$py_test_for_test_balance_TestBalance_test_withdraw_ATM.coverage" NAME="py.test for test_balance.TestBalance.test_withdraw_ATM Coverage Results" MODIFIED="1551918085002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/scripts" />
@@ -72,44 +103,46 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="base_assert.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/base_assert.py">
+      <file leaf-file-name="base_logs.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/base/base_logs.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="27">
-              <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+            <state relative-caret-position="0">
+              <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="analysis_data.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/base/analysis_data.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="444">
+              <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="__init__.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/page/__init__.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="108">
+              <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
               <folding>
-                <element signature="e#0#11#0" expanded="true" />
+                <element signature="e#0#14#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="test_card_bind_unbind.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/scripts/test_card_bind_unbind.py">
+      <file leaf-file-name="test_balance.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/scripts/test_balance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="352">
-              <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="test_login.py" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/scripts/test_login.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="163">
-              <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="base_data.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/base/base_data.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="17" />
-              <folding />
+            <state relative-caret-position="1755">
+              <caret line="75" column="51" lean-forward="false" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#11#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -143,7 +176,27 @@
       <find>et_amount</find>
       <find>submit</find>
       <find>allure</find>
+      <find>self.get_log().log</find>
+      <find>: '&quot;</find>
+      <find>]</find>
+      <find>'&quot;</find>
+      <find>lo</find>
+      <find>Logout_confirm</find>
+      <find>_input</find>
+      <find>_butt</find>
+      <find>withd</find>
+      <find>logger.</find>
+      <find>balance</find>
+      <find>Transfer_from_bankAC</find>
     </findStrings>
+    <replaceStrings>
+      <replace>logger.info</replace>
+      <replace>: &quot;</replace>
+      <replace>]'</replace>
+      <replace>&quot;</replace>
+      <replace>#lo</replace>
+      <replace># logger.</replace>
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -151,57 +204,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/page/forget_pin_page.py" />
-        <option value="$PROJECT_DIR$/page/change_pin_page.py" />
-        <option value="$PROJECT_DIR$/page/reset_pin_page.py" />
-        <option value="$PROJECT_DIR$/page/help_feeback_page.py" />
-        <option value="$PROJECT_DIR$/page/notification_page.py" />
-        <option value="$PROJECT_DIR$/page/balance_page.py" />
-        <option value="$PROJECT_DIR$/page/deposit_page.py" />
-        <option value="$PROJECT_DIR$/page/scan_qr_page.py" />
-        <option value="$PROJECT_DIR$/page/manual_page.py" />
-        <option value="$PROJECT_DIR$/page/qr_recevie_page.py" />
-        <option value="$PROJECT_DIR$/page/cash_in_page.py" />
-        <option value="$PROJECT_DIR$/page/cash_out_ATM_page.py" />
-        <option value="$PROJECT_DIR$/page/top_up_page.py" />
-        <option value="$PROJECT_DIR$/page/nearby_page.py" />
-        <option value="$PROJECT_DIR$/page/history_page.py" />
-        <option value="$PROJECT_DIR$/page/sidebar_page.py" />
-        <option value="$PROJECT_DIR$/page/cash_out_page.py" />
-        <option value="$PROJECT_DIR$/page/withdraw_page.py" />
-        <option value="$PROJECT_DIR$/page/page.py" />
-        <option value="$PROJECT_DIR$/scripts/test_san_and_pay.py" />
-        <option value="$PROJECT_DIR$/page/payment_page.py" />
-        <option value="$PROJECT_DIR$/data/login_base_data.yaml" />
-        <option value="$PROJECT_DIR$/data/base_data.yaml" />
-        <option value="$PROJECT_DIR$/page/demo.py" />
-        <option value="$PROJECT_DIR$/data/scan_and_pay.yaml" />
-        <option value="$PROJECT_DIR$/data/balance_data.yaml" />
-        <option value="$PROJECT_DIR$/page/bank_account_page.py" />
-        <option value="$PROJECT_DIR$/page/transfer_page.py" />
-        <option value="$PROJECT_DIR$/data/transfer_data.yaml" />
-        <option value="$PROJECT_DIR$/../TPShop/base/base_driver.py" />
-        <option value="$PROJECT_DIR$/base/base_action.py" />
-        <option value="$PROJECT_DIR$/base/base_login.py" />
-        <option value="$PROJECT_DIR$/base/base_driver.py" />
-        <option value="$PROJECT_DIR$/page/quick_pay_page.py" />
-        <option value="$PROJECT_DIR$/base/base_assert.py" />
-        <option value="$PROJECT_DIR$/base/base_element.py" />
-        <option value="$PROJECT_DIR$/page/pin_enter_page.py" />
-        <option value="$PROJECT_DIR$/base/analysis_data.py" />
-        <option value="$PROJECT_DIR$/demo.py" />
-        <option value="$PROJECT_DIR$/scripts/__init__.py" />
-        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/allure/__init__.py" />
-        <option value="$PROJECT_DIR$/scripts/test_scan_and_pay.py" />
-        <option value="$PROJECT_DIR$/scripts/test_balance.py" />
         <option value="$PROJECT_DIR$/scripts/test_notification.py" />
         <option value="$PROJECT_DIR$/scripts/test_quick_pay.py" />
         <option value="$PROJECT_DIR$/scripts/test_card_bind_unbind.py" />
         <option value="$PROJECT_DIR$/scripts/test_sidebar.py" />
         <option value="$PROJECT_DIR$/scripts/test_transfer.py" />
-        <option value="$PROJECT_DIR$/pytest.ini" />
         <option value="$PROJECT_DIR$/base/base_data.py" />
+        <option value="$PROJECT_DIR$/logs/logs.py" />
+        <option value="$PROJECT_DIR$/logs/kbz_logs.py" />
+        <option value="$PROJECT_DIR$/base/base_login.py" />
         <option value="$PROJECT_DIR$/scripts/test_login.py" />
+        <option value="$PROJECT_DIR$/page/page.py" />
+        <option value="$PROJECT_DIR$/page/balance_page.py" />
+        <option value="$PROJECT_DIR$/page/bank_account_page.py" />
+        <option value="$PROJECT_DIR$/page/banner_page.py" />
+        <option value="$PROJECT_DIR$/page/cash_in_page.py" />
+        <option value="$PROJECT_DIR$/page/cash_out_ATM_page.py" />
+        <option value="$PROJECT_DIR$/page/cash_out_page.py" />
+        <option value="$PROJECT_DIR$/page/change_pin_page.py" />
+        <option value="$PROJECT_DIR$/page/forget_pin_page.py" />
+        <option value="$PROJECT_DIR$/page/help_feeback_page.py" />
+        <option value="$PROJECT_DIR$/page/language_page.py" />
+        <option value="$PROJECT_DIR$/page/history_page.py" />
+        <option value="$PROJECT_DIR$/page/login_page.py" />
+        <option value="$PROJECT_DIR$/page/manual_page.py" />
+        <option value="$PROJECT_DIR$/page/nearby_page.py" />
+        <option value="$PROJECT_DIR$/page/new_notices_page.py" />
+        <option value="$PROJECT_DIR$/page/notification_page.py" />
+        <option value="$PROJECT_DIR$/page/payment_page.py" />
+        <option value="$PROJECT_DIR$/page/pin_enter_page.py" />
+        <option value="$PROJECT_DIR$/page/pin_manage_page.py" />
+        <option value="$PROJECT_DIR$/page/qr_recevie_page.py" />
+        <option value="$PROJECT_DIR$/page/reset_pin_page.py" />
+        <option value="$PROJECT_DIR$/page/scan_qr_page.py" />
+        <option value="$PROJECT_DIR$/page/set_photo_page.py" />
+        <option value="$PROJECT_DIR$/page/setting_page.py" />
+        <option value="$PROJECT_DIR$/page/sidebar_page.py" />
+        <option value="$PROJECT_DIR$/page/top_up_page.py" />
+        <option value="$PROJECT_DIR$/page/transfer_page.py" />
+        <option value="$PROJECT_DIR$/base/base_action.py" />
+        <option value="$PROJECT_DIR$/data/name_data.yaml" />
+        <option value="$PROJECT_DIR$/base/base_assert.py" />
+        <option value="$PROJECT_DIR$/pytest.ini" />
+        <option value="$PROJECT_DIR$/page/quick_pay_page.py" />
+        <option value="$PROJECT_DIR$/base/base_element.py" />
+        <option value="$PROJECT_DIR$/base/analysis_data.py" />
+        <option value="$PROJECT_DIR$/base/base_logs.py" />
+        <option value="$PROJECT_DIR$/page/withdraw_page.py" />
+        <option value="$PROJECT_DIR$/scripts/test_balance.py" />
+        <option value="$PROJECT_DIR$/page/deposit_page.py" />
+        <option value="$PROJECT_DIR$/demo.py" />
+        <option value="$PROJECT_DIR$/page/__init__.py" />
       </list>
     </option>
   </component>
@@ -256,18 +309,12 @@
             <path>
               <item name="KBZ" type="b2602c69:ProjectViewProjectNode" />
               <item name="KBZ" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
+              <item name="logs" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="KBZ" type="b2602c69:ProjectViewProjectNode" />
               <item name="KBZ" type="462c0819:PsiDirectoryNode" />
-              <item name="report" type="462c0819:PsiDirectoryNode" />
-              <item name="html" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="KBZ" type="b2602c69:ProjectViewProjectNode" />
-              <item name="KBZ" type="462c0819:PsiDirectoryNode" />
-              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+              <item name="page" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -284,8 +331,8 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\29405\PycharmProjects\KBZ\scripts" />
       <recent name="C:\Users\29405\PycharmProjects\KBZ\base" />
+      <recent name="C:\Users\29405\PycharmProjects\KBZ\scripts" />
       <recent name="C:\Users\29405\PycharmProjects\KBZ\data" />
       <recent name="C:\Users\29405\PycharmProjects\KBZ\page" />
     </key>
@@ -302,8 +349,27 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python tests.py.test for test_scan_and_pay.TestScanAndPay">
-    <configuration name="py.test for test_balance.TestBalance.test_withdraw_ATM" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.demo">
+    <configuration name="demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="KBZ" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/demo.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+    </configuration>
+    <configuration name="py.test for test_balance.TestBalance" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -316,10 +382,10 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_balance.TestBalance.test_withdraw_ATM&quot;" />
+      <option name="_new_target" value="&quot;test_balance.TestBalance&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test for test_balance.TestNotify" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for test_balance.TestBalance.test_withdraw_bank_AC" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -332,10 +398,10 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_balance.TestNotify&quot;" />
+      <option name="_new_target" value="&quot;test_balance.TestBalance.test_withdraw_bank_AC&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test for test_balance.TestNotify.test_diposit_bank_AC" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for test_login.TestLogin" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -348,10 +414,10 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_balance.TestNotify.test_diposit_bank_AC&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
-    <configuration name="py.test for test_quick_pay.TestQuickPay.test_aeon" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="py.test for test_login.TestLogin.test_change_lang" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs />
@@ -364,39 +430,23 @@
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
       <option name="_new_keywords" value="&quot;&quot;" />
       <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_quick_pay.TestQuickPay.test_aeon&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
-    </configuration>
-    <configuration name="py.test for test_scan_and_pay.TestScanAndPay" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/scripts" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <module name="KBZ" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_scan_and_pay.TestScanAndPay&quot;" />
+      <option name="_new_target" value="&quot;test_login.TestLogin.test_change_lang&quot;" />
       <option name="_new_targetType" value="&quot;PYTHON&quot;" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_quick_pay.TestQuickPay.test_aeon" />
-      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_balance.TestNotify" />
-      <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_balance.TestNotify.test_diposit_bank_AC" />
-      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_balance.TestBalance.test_withdraw_ATM" />
-      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_scan_and_pay.TestScanAndPay" />
+      <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_login.TestLogin" />
+      <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_login.TestLogin.test_change_lang" />
+      <item index="2" class="java.lang.String" itemvalue="Python.demo" />
+      <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_balance.TestBalance" />
+      <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_balance.TestBalance.test_withdraw_bank_AC" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Python tests.py.test for test_scan_and_pay.TestScanAndPay" />
-        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_balance.TestBalance.test_withdraw_ATM" />
-        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_balance.TestNotify" />
-        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_balance.TestNotify.test_diposit_bank_AC" />
-        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_quick_pay.TestQuickPay.test_aeon" />
+        <item index="0" class="java.lang.String" itemvalue="Python.demo" />
+        <item index="1" class="java.lang.String" itemvalue="Python tests.py.test for test_balance.TestBalance.test_withdraw_bank_AC" />
+        <item index="2" class="java.lang.String" itemvalue="Python tests.py.test for test_balance.TestBalance" />
+        <item index="3" class="java.lang.String" itemvalue="Python tests.py.test for test_login.TestLogin" />
+        <item index="4" class="java.lang.String" itemvalue="Python tests.py.test for test_login.TestLogin.test_change_lang" />
       </list>
     </recent_temporary>
   </component>
@@ -421,55 +471,61 @@
       <option name="project" value="LOCAL" />
       <updated>1552001494288</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Allure HTML Report">
+      <created>1552126106248</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1552126106248</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="py_test_for_test_balance_TestBalance_test_withdraw_ATM - 2019.03.07 at 08h 22m 08s.xml">
-      <configuration name="py.test for test_balance.TestBalance.test_withdraw_ATM" configurationId="tests" />
+    <history-entry file="py_test_for_test_balance_TestBalance - 2019.03.10 at 21h 43m 04s.xml">
+      <configuration name="py.test for test_balance.TestBalance" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_balance_TestNotify - 2019.03.07 at 08h 03m 44s.xml">
-      <configuration name="py.test for test_balance.TestNotify" configurationId="tests" />
+    <history-entry file="py_test_for_test_balance_TestBalance_test_withdraw_bank_AC - 2019.03.10 at 21h 44m 11s.xml">
+      <configuration name="py.test for test_balance.TestBalance.test_withdraw_bank_AC" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_balance_TestNotify - 2019.03.07 at 08h 16m 01s.xml">
-      <configuration name="py.test for test_balance.TestNotify" configurationId="tests" />
+    <history-entry file="py_test_for_test_balance_TestBalance_test_withdraw_bank_AC - 2019.03.10 at 21h 48m 20s.xml">
+      <configuration name="py.test for test_balance.TestBalance.test_withdraw_bank_AC" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_balance_TestNotify_test_diposit_bank_AC - 2019.03.07 at 08h 08m 12s.xml">
-      <configuration name="py.test for test_balance.TestNotify.test_diposit_bank_AC" configurationId="tests" />
+    <history-entry file="py_test_for_test_login_TestLogin - 2019.03.10 at 20h 00m 42s.xml">
+      <configuration name="py.test for test_login.TestLogin" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_balance_TestNotify_test_diposit_bank_AC - 2019.03.07 at 08h 08m 50s.xml">
-      <configuration name="py.test for test_balance.TestNotify.test_diposit_bank_AC" configurationId="tests" />
+    <history-entry file="py_test_for_test_login_TestLogin_test_change_lang - 2019.03.10 at 17h 04m 13s.xml">
+      <configuration name="py.test for test_login.TestLogin.test_change_lang" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_quick_pay_TestQuickPay_test_aeon - 2019.03.07 at 07h 44m 40s.xml">
-      <configuration name="py.test for test_quick_pay.TestQuickPay.test_aeon" configurationId="tests" />
+    <history-entry file="py_test_for_test_login_TestLogin_test_change_lang - 2019.03.10 at 17h 37m 04s.xml">
+      <configuration name="py.test for test_login.TestLogin.test_change_lang" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_quick_pay_TestQuickPay_test_aeon - 2019.03.07 at 07h 57m 24s.xml">
-      <configuration name="py.test for test_quick_pay.TestQuickPay.test_aeon" configurationId="tests" />
+    <history-entry file="py_test_for_test_login_TestLogin_test_change_lang - 2019.03.10 at 19h 05m 42s.xml">
+      <configuration name="py.test for test_login.TestLogin.test_change_lang" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_quick_pay_TestQuickPay_test_aeon - 2019.03.07 at 07h 58m 33s.xml">
-      <configuration name="py.test for test_quick_pay.TestQuickPay.test_aeon" configurationId="tests" />
+    <history-entry file="py_test_for_test_login_TestLogin_test_change_lang - 2019.03.10 at 19h 32m 17s.xml">
+      <configuration name="py.test for test_login.TestLogin.test_change_lang" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_quick_pay_TestQuickPay_test_aeon - 2019.03.07 at 08h 02m 11s.xml">
-      <configuration name="py.test for test_quick_pay.TestQuickPay.test_aeon" configurationId="tests" />
+    <history-entry file="py_test_for_test_login_TestLogin_test_change_lang - 2019.03.10 at 19h 33m 25s.xml">
+      <configuration name="py.test for test_login.TestLogin.test_change_lang" configurationId="tests" />
     </history-entry>
-    <history-entry file="py_test_for_test_scan_and_pay_TestScanAndPay - 2019.03.09 at 15h 09m 12s.xml">
-      <configuration name="py.test for test_scan_and_pay.TestScanAndPay" configurationId="tests" />
+    <history-entry file="py_test_for_test_login_TestLogin_test_change_lang - 2019.03.10 at 19h 36m 52s.xml">
+      <configuration name="py.test for test_login.TestLogin.test_change_lang" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1048" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5064378" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3442623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290398" sideWeight="0.49356222" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16201717" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3442623" sideWeight="0.50536484" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3442623" sideWeight="0.4946352" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3290398" sideWeight="0.49356222" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16845493" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39929742" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -486,15 +542,15 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.5064378" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3442623" sideWeight="0.50536484" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3442623" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.49356222" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27682403" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3442623" sideWeight="0.4946352" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3290398" sideWeight="0.49356222" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16416308" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Docker" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="SciView" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299356" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -512,7 +568,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Add assert" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add assert" />
+    <MESSAGE value="Allure HTML Report" />
+    <option name="LAST_COMMIT_MESSAGE" value="Allure HTML Report" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -523,12 +580,47 @@
           <option name="timeStamp" value="23" />
         </line-breakpoint>
       </breakpoints>
-      <option name="time" value="28" />
+      <option name="time" value="41" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="debuggerHistoryManager">
     <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>log(&quot;点击Withdraw&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>log</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>logs</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>logs.log(&quot;点击Withdraw&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>Logger(log_file_name=&quot;logs.txt&quot;, log_level=logging.INFO, logger_name=&quot;logging&quot;).get_log()</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>logs.log(&quot;点击 语言&quot;)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>os.path.basename(__file__)</expression-string>
+        <language-id>Python</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
       <expression>
         <expression-string>AnalysisData(&quot;base_data&quot;).analysis_base_data()</expression-string>
         <language-id>Python</language-id>
@@ -539,216 +631,362 @@
         <language-id>Python</language-id>
         <evaluation-mode>EXPRESSION</evaluation-mode>
       </expression>
-      <expression>
-        <expression-string>yaml.load(f)</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>data.values()</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
-      <expression>
-        <expression-string>(data.keys</expression-string>
-        <language-id>Python</language-id>
-        <evaluation-mode>EXPRESSION</evaluation-mode>
-      </expression>
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/_pytest/capture.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="167" column="0" lean-forward="false" selection-start-line="167" selection-start-column="0" selection-end-line="167" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/_pytest/runner.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="119" column="0" lean-forward="false" selection-start-line="119" selection-start-column="0" selection-end-line="119" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pluggy/hooks.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="160">
-          <caret line="257" column="0" lean-forward="false" selection-start-line="257" selection-start-column="0" selection-end-line="257" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/demo.py" />
-    <entry file="file://$PROJECT_DIR$/data/login_data.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/scan_and_pay.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="11" column="0" lean-forward="true" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/remote/webdriver.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-742">
-          <caret line="693" column="14" lean-forward="true" selection-start-line="693" selection-start-column="14" selection-end-line="693" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/balance_data.yaml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="7" column="25" lean-forward="false" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/page/cash_out_page.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="8" selection-end-line="24" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/page/bank_account_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="297">
-          <caret line="12" column="34" lean-forward="true" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="-162">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page/banner_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="41" lean-forward="true" selection-start-line="10" selection-start-column="41" selection-end-line="10" selection-end-column="41" />
+        <state relative-caret-position="1545">
+          <caret line="61" column="17" lean-forward="false" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/data/transfer_data.yaml">
+    <entry file="file://$PROJECT_DIR$/page/cash_in_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="2" selection-end-column="27" />
+        <state relative-caret-position="518">
+          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/transfer_page.py">
+    <entry file="file://$PROJECT_DIR$/page/cash_out_ATM_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="221">
-          <caret line="25" column="29" lean-forward="true" selection-start-line="25" selection-start-column="29" selection-end-line="25" selection-end-column="29" />
+        <state relative-caret-position="410">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TPShop/scripts/test_login.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/support/wait.py">
+    <entry file="file://$PROJECT_DIR$/page/cash_out_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="151">
-          <caret line="55" column="0" lean-forward="false" selection-start-line="55" selection-start-column="0" selection-end-line="55" selection-end-column="0" />
+        <state relative-caret-position="1193">
+          <caret line="50" column="17" lean-forward="false" selection-start-line="50" selection-start-column="17" selection-end-line="50" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pluggy/callers.py">
+    <entry file="file://$PROJECT_DIR$/page/change_pin_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="268">
-          <caret line="183" column="0" lean-forward="false" selection-start-line="183" selection-start-column="0" selection-end-line="183" selection-end-column="0" />
+        <state relative-caret-position="442">
+          <caret line="25" column="17" lean-forward="false" selection-start-line="25" selection-start-column="17" selection-end-line="25" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/_pytest/python.py">
+    <entry file="file://$PROJECT_DIR$/page/forget_pin_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="196" column="0" lean-forward="false" selection-start-line="196" selection-start-column="0" selection-end-line="196" selection-end-column="0" />
+        <state relative-caret-position="270">
+          <caret line="13" column="17" lean-forward="false" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/help_feeback_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="334">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/language_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="361">
+          <caret line="22" column="17" lean-forward="false" selection-start-line="22" selection-start-column="17" selection-end-line="22" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/history_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="820">
+          <caret line="44" column="17" lean-forward="false" selection-start-line="44" selection-start-column="17" selection-end-line="44" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page/login_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="30" column="8" lean-forward="false" selection-start-line="30" selection-start-column="8" selection-end-line="30" selection-end-column="8" />
+        <state relative-caret-position="1639">
+          <caret line="75" column="17" lean-forward="false" selection-start-line="75" selection-start-column="17" selection-end-line="75" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/selenium/webdriver/remote/errorhandler.py">
+    <entry file="file://$PROJECT_DIR$/page/manual_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="241" column="0" lean-forward="false" selection-start-line="241" selection-start-column="0" selection-end-line="241" selection-end-column="0" />
+        <state relative-caret-position="285">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/appium/webdriver/common/touch_action.py">
+    <entry file="file://$PROJECT_DIR$/page/nearby_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="63" column="8" lean-forward="false" selection-start-line="63" selection-start-column="8" selection-end-line="63" selection-end-column="8" />
+        <state relative-caret-position="285">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../TPShop/base/base_driver.py" />
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/appium/webdriver/webdriver.py">
+    <entry file="file://$PROJECT_DIR$/page/new_notices_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11795">
-          <caret line="638" column="31" lean-forward="false" selection-start-line="638" selection-start-column="31" selection-end-line="638" selection-end-column="31" />
+        <state relative-caret-position="302">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_driver.py">
+    <entry file="file://$PROJECT_DIR$/page/notification_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="339">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
+        <state relative-caret-position="285">
+          <caret line="20" column="17" lean-forward="false" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page/page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1014">
-          <caret line="142" column="22" lean-forward="false" selection-start-line="142" selection-start-column="22" selection-end-line="142" selection-end-column="22" />
-          <folding />
+        <state relative-caret-position="86">
+          <caret line="38" column="0" lean-forward="true" selection-start-line="38" selection-start-column="0" selection-end-line="38" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/page/quick_pay_page.py">
+    <entry file="file://$PROJECT_DIR$/page/payment_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-76">
-          <caret line="8" column="8" lean-forward="false" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_action.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="176">
-          <caret line="16" column="8" lean-forward="false" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
-          <folding />
+        <state relative-caret-position="332">
+          <caret line="24" column="17" lean-forward="false" selection-start-line="24" selection-start-column="17" selection-end-line="24" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/page/pin_enter_page.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="24" column="21" lean-forward="false" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
+        <state relative-caret-position="356">
+          <caret line="32" column="17" lean-forward="false" selection-start-line="32" selection-start-column="17" selection-end-line="32" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/pin_manage_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/qr_recevie_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="28" column="17" lean-forward="false" selection-start-line="28" selection-start-column="17" selection-end-line="28" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/reset_pin_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/set_photo_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="329">
+          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/setting_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="21" column="17" lean-forward="false" selection-start-line="21" selection-start-column="17" selection-end-line="21" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/scan_qr_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="368">
+          <caret line="15" column="26" lean-forward="true" selection-start-line="15" selection-start-column="26" selection-end-line="15" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/sidebar_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="530">
+          <caret line="43" column="17" lean-forward="false" selection-start-line="43" selection-start-column="17" selection-end-line="43" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/top_up_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="503">
+          <caret line="24" column="16" lean-forward="false" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/transfer_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="653">
+          <caret line="39" column="16" lean-forward="false" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base_action.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-135">
+          <caret line="34" column="45" lean-forward="true" selection-start-line="34" selection-start-column="45" selection-end-line="34" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base_assert.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="16" column="44" lean-forward="false" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pytest.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="6" column="19" lean-forward="false" selection-start-line="6" selection-start-column="19" selection-end-line="6" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/quick_pay_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="59" column="45" lean-forward="false" selection-start-line="59" selection-start-column="45" selection-end-line="59" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/data/name_data.yaml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1808">
+          <caret line="81" column="49" lean-forward="false" selection-start-line="81" selection-start-column="49" selection-end-line="81" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_login.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="244">
+          <caret line="67" column="32" lean-forward="true" selection-start-line="67" selection-start-column="32" selection-end-line="67" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_card_bind_unbind.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_notification.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/withdraw_page.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="243">
+          <caret line="15" column="31" lean-forward="false" selection-start-line="15" selection-start-column="31" selection-end-line="15" selection-end-column="31" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/base/base_element.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="552">
-          <caret line="217" column="26" lean-forward="false" selection-start-line="217" selection-start-column="26" selection-end-line="217" selection-end-column="26" />
-          <folding />
+        <state relative-caret-position="205">
+          <caret line="216" column="4" lean-forward="false" selection-start-line="216" selection-start-column="4" selection-end-line="216" selection-end-column="4" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_login.py">
+    <entry file="file://$PROJECT_DIR$/page/deposit_page.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
-          <caret line="5" column="28" lean-forward="false" selection-start-line="5" selection-start-column="28" selection-end-line="5" selection-end-column="28" />
+          <caret line="3" column="23" lean-forward="true" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/logs.txt" />
+    <entry file="file://$PROJECT_DIR$/demo.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="55" column="61" lean-forward="false" selection-start-line="55" selection-start-column="6" selection-end-line="55" selection-end-column="61" />
+          <folding>
+            <element signature="e#1375#1386#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/base/base_logs.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/report/test_report.html" />
-    <entry file="file://$PROJECT_DIR$/report/html/index.html">
+    <entry file="file://$PROJECT_DIR$/scripts/test_balance.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1755">
+          <caret line="75" column="51" lean-forward="false" selection-start-line="75" selection-start-column="51" selection-end-line="75" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/page/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="9" column="40" lean-forward="false" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/f6477b0c-b70c-4ec9-82b2-000c3961a3f9-attachment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/0cc777f9-d2df-40a9-b17a-ed9a033e325d-attachment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/8b128b73-fba7-44dd-a8a3-bb8df3ddbe17-attachment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/3466b067-0fe5-4f53-93d4-53e81b544053-attachment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/fa9db3ea-ef8e-4d56-a9ff-ad1df94b2f3c-attachment.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/report/fe5b84c9-32f8-47bf-9b57-010413008dc0-attachment.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
@@ -758,170 +996,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/base/analysis_data.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="162">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/pytest.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-675">
-          <caret line="14" column="50" lean-forward="false" selection-start-line="14" selection-start-column="47" selection-end-line="14" selection-end-column="50" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/data/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.PyCharm2017.3/system/python_stubs/680482041/builtins.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="167" column="4" lean-forward="false" selection-start-line="167" selection-start-column="4" selection-end-line="167" selection-end-column="4" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/demo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding>
-            <element signature="e#1#25#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/allure/pytest_plugin.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1016">
-          <caret line="467" column="25" lean-forward="false" selection-start-line="467" selection-start-column="25" selection-end-line="467" selection-end-column="25" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/site-packages/allure/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="8" column="10" lean-forward="false" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="10" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_sidebar.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="189">
-          <caret line="77" column="41" lean-forward="false" selection-start-line="77" selection-start-column="41" selection-end-line="77" selection-end-column="41" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_transfer.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="23" column="0" lean-forward="true" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_balance.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="107">
-          <caret line="66" column="54" lean-forward="false" selection-start-line="66" selection-start-column="54" selection-end-line="66" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_scan_and_pay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="15" column="0" lean-forward="true" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pytest.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="270">
-          <caret line="10" column="19" lean-forward="false" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_quick_pay.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="33" column="44" lean-forward="false" selection-start-line="33" selection-start-column="44" selection-end-line="33" selection-end-column="44" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_notification.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="351">
-          <caret line="13" column="54" lean-forward="false" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
-          <folding>
-            <element signature="e#0#11#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_card_bind_unbind.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="352">
-          <caret line="86" column="0" lean-forward="false" selection-start-line="86" selection-start-column="0" selection-end-line="86" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_assert.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="27">
-          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
-          <folding>
-            <element signature="e#0#11#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/base/base_data.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="16" column="17" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="17" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_login.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="163">
-          <caret line="39" column="0" lean-forward="true" selection-start-line="39" selection-start-column="0" selection-end-line="39" selection-end-column="0" />
+        <state relative-caret-position="444">
+          <caret line="29" column="33" lean-forward="false" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
           <folding />
         </state>
       </provider>

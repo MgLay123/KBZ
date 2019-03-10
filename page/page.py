@@ -36,6 +36,7 @@ class Page:
 
     @property
     def login_page(self):
+
         return LoginPage(self.driver)
 
     @property

@@ -9,7 +9,7 @@ class AnalysisData:
 
     def analysis_data(self):
 
-        with open(self.filepath, 'r') as  f:
+        with open(self.filepath, 'r',encoding='utf-8') as  f:
             data = yaml.load(f)
 
             value = data.values()

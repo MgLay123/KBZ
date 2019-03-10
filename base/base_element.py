@@ -94,7 +94,7 @@ class BaseElements:
     No_longer_display = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/show_again"
     # Start复用Confirm_button
 
-    Transfer_from_bankAC = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/tv_transfer_from_bank_account"
+    Transfer_from_bank_AC = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/tv_transfer_from_bank_account"
     withdraw_button = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/btn_withdraw"
 
     # ScanQR

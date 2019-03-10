@@ -18,19 +18,30 @@ class TestBalance(BaseElements,BaseAssert):
 
     @allure.MASTER_HELPER.feature("通过Banlance界面CashIn")
     def test_diposit_agent(self):
+
         self.page.banner_page.click_balance()
+
         self.page.balance_page.click_deposit()
+
         self.page.deposit_page.click_cashin_from_agent()
+
         self.page.cash_in_page.click_start()
 
     @allure.MASTER_HELPER.feature("通过Banlance界面从银行卡向钱包转账")
     def test_diposit_bank_AC(self):
+
         self.page.banner_page.click_balance()
+
         self.page.balance_page.click_deposit()
+
         self.page.deposit_page.click_transfer_from_bankAC()
+
         self.page.bank_account_page.input_amount(amount)
+
         self.page.bank_account_page.click_confirm()
+
         self.page.pin_enter_page.input_pin()
+
         self.Assert_display(self.driver,self.assert_pay)
 
     @pytest.mark.parametrize("test_id,short_code", AnalysisData("balance_data").analysis_data())
@@ -68,7 +79,7 @@ class TestBalance(BaseElements,BaseAssert):
     def test_withdraw_bank_AC(self):
         self.page.banner_page.click_balance()
         self.page.balance_page.click_withdraw()
-        self.page.withdraw_page.click_transfer_from_bankAC()
+        self.page.withdraw_page.click_transfer_from_bank_AC()
         self.page.bank_account_page.input_amount(amount)
         self.page.bank_account_page.click_confirm()
         self.page.pin_enter_page.input_pin()

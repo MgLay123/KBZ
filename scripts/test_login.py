@@ -7,25 +7,35 @@ import pytest
 
 from base.analysis_data import AnalysisData
 from base.base_driver import init_driver
+from base.base_logs import Logger
 from page.page import Page
 
 class TestLogin:
 
     def setup(self):
+
         self.driver = init_driver()
         self.page = Page(self.driver)
+
     @allure.MASTER_HELPER.feature("Login UI set language")
     def test_change_lang(self):
+
         self.page.login_page.click_lang_button()
+
         self.page.login_page.click_en_button()
+
         assert self.page.login_page.find_start() == login_lang_en
 
         self.page.login_page.click_lang_button()
+
         self.page.login_page.click_my_button()
+
         assert self.page.login_page.find_start() == login_lang_my
 
         self.page.login_page.click_lang_button()
+
         self.page.login_page.click_ch_button()
+
         assert self.page.login_page.find_start() == login_lang_ch
 
     @pytest.mark.parametrize("test_id,phoneNo,smscode", AnalysisData("login_data").analysis_data())
