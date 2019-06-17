@@ -10,12 +10,15 @@ from base.base_driver import init_driver
 from base.base_logs import Logger
 from page.page import Page
 
+
 class TestLogin:
 
     def setup(self):
 
         self.driver = init_driver()
         self.page = Page(self.driver)
+        self.page.login_page.click_get_start()
+        self.page.login_page.click_update_cancel()
 
     @allure.MASTER_HELPER.feature("Login UI set language")
     def test_change_lang(self):
@@ -38,6 +41,7 @@ class TestLogin:
 
         assert self.page.login_page.find_start() == login_lang_ch
 
+    # 使用pytest实现多用例执行
     @pytest.mark.parametrize("test_id,phoneNo,smscode", AnalysisData("login_data").analysis_data())
     @allure.MASTER_HELPER.feature("Login")
     def test_login(self, test_id, phoneNo, smscode):

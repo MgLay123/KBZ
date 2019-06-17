@@ -57,7 +57,6 @@ class LoginPage(BaseAction, BaseElements):
         self.click(self.start_button)
 
     def find_start(self):
-
         return self.find_element(self.start_button).text
 
     def start_status(self):
@@ -75,3 +74,10 @@ class LoginPage(BaseAction, BaseElements):
     def click_term(self):
         # logger.info("点击 Term")
         self.click(self.agreement_select)
+
+    def click_get_start(self):
+        self.move_left_click(self.get_start)
+
+
+    def click_update_cancel(self):
+        self.click(self.update_cancel)

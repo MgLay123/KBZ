@@ -1,6 +1,7 @@
 from selenium.webdriver.common.by import By
 
 
+# 用于存储所有的元素 方便调用和修改
 class BaseElements:
     # 登陆界面
     sidebar_button = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/img_open_drawer"
@@ -20,7 +21,9 @@ class BaseElements:
     smscode = "666888"
     agreement_select = By.XPATH, "//*[@text = 'By starting,I agree to the']"
     title = By.XPATH, "//*[contains(@text, 'ceshi')]"
-
+    skip = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/tv_skip"
+    update_cancel = By.XPATH, "//*[@text = 'Cancel']"
+    get_start = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/signup"
     # 主页面
 
     drawer_button = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/tv_open_drawer"
@@ -138,7 +141,7 @@ class BaseElements:
     Find_agent_map = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/action_nav_to_map"
     Search_agent = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/no_search_for_nearby_agent"
 
-    CashOut_from_ATM = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/tv_cash_out_from_atm"
+    CashOut_from_ATM = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/tv_cash_out_from_atm"
     CashOut_ATM = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/atm"
     Request_code = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/requst_code_cash_out"
     Search_ATM = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/search_for_nearby_atm"
@@ -153,7 +156,7 @@ class BaseElements:
     Delete_PIN = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/img"
 
     CashOut_BankAC = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/bank_account"
-    CashOut_from_BankAC = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/tv_transfer_from_bank_account"
+    CashOut_from_BankAC = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/tv_transfer_from_bank_account"
     # Top UP
     Edit_Phone_no = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/edit_phone_number"
     MMK2000 = By.XPATH, "//*[@text = '2000 MMK']"
@@ -168,7 +171,6 @@ class BaseElements:
     # 复用Edit_Phone_no,Edit_amount,Add_note
     Get_phoneno_contact = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/iv_get_contact"
     Transfer = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/btn_transfer"
-
 
     # History
     Filtrate_img = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/img_filter"
@@ -190,31 +192,28 @@ class BaseElements:
 
     # Quick pay
     Select_Aeon = By.XPATH, "//*[@text = 'Aeon']"
-    et_amount = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/et_amount"
-    edt_notes = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/edt_notes"
-    param_id = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/param_id"
+    et_amount = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/et_amount"
+    edt_notes = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/edt_notes"
+    param_id = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/param_id"
     mother_finance = By.XPATH, "//*[@text = 'Mother Finance Co.,Ltd']"
 
     # Bank AC
     Add_Bank_AC = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/tv_add_bank_account"
     Edit_Bank_Card_No = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/edt_bank_card_number"
     Edit_code = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/edt_verification_code"
-    enter_amount = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/edt_amount"
-    romve_bankAC = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/btn_remove_bank_card"
-    transfer_to_BankAC = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/btn_balance2ac"
-    transfer_from_BankAC = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/btn_ac2balance"
-    confirm_no = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/tv_left"
-    confirm_yes = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/tv_right"
+    enter_amount = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/edt_amount"
+    romve_bankAC = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/btn_remove_bank_card"
+    transfer_to_BankAC = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/btn_balance2ac"
+    transfer_from_BankAC = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/btn_ac2balance"
+    confirm_no = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/tv_left"
+    confirm_yes = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/tv_right"
 
+    # payment
 
-    #payment
+    payment = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/btn_transfer"
+    edit_notes = By.ID, "com.kbzbank.kpaycustomer.ceshi:id/edit_note"
 
-    payment = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/btn_transfer"
-    edit_notes = By.ID,"com.kbzbank.kpaycustomer.ceshi:id/edit_note"
-
-    #Display
+    # Display
     ref = "Reference Number"
-    assert_pay  = "Payment Successful"
+    assert_pay = "Payment Successful"
     assert_ATM = "Success"
-
-

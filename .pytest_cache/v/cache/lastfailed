@@ -5,6 +5,7 @@
   "scripts/test_balance.py::TestNotify::()::test_withdraw_ATM": true,
   "scripts/test_balance.py::TestNotify::()::test_withdraw_agent[short_code0]": true,
   "scripts/test_balance.py::TestNotify::()::test_withdraw_agent[short_code1]": true,
+  "scripts/test_login.py": true,
   "scripts/test_login_page.py::TestLogin::()::test_login[001-3463-]": true,
   "scripts/test_login_page.py::TestLogin::()::test_login[004-770013073-12312]": true,
   "scripts/test_login_page.py::TestLogin::()::test_login[004-770013073-]": true,

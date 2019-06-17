@@ -1,11 +1,14 @@
 import logging
 
+import sys
+import os
 
 class Logger:
 
     def __init__(self, log_file_name, log_level, logger_name):
         # 创建一个logger
-        file_name = "./logs/"+log_file_name
+        path = os.path.abspath('..')+"\\logs\\"
+        file_name = path+log_file_name
         self.__logger = logging.getLogger(logger_name)
 
         # 指定日志的最低输出级别，默认为WARN级别
